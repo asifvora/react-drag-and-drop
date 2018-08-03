@@ -1,4 +1,5 @@
-# Drag and Drop with React
+# Drag and Drop in React
+Implement the drag and drop feature without using external libraries.
 
 # Screenshot
 
@@ -35,6 +36,15 @@ $ npm start
 ```sh
 $ npm run build
 ```
+
+# The key learning points are to:
+
+1 Make an element draggable by adding the “draggable” attribute
+2 Make an area droppable by implementing the “dragover” event
+3 Capture the drag data by implementing the “dragstart” event
+4 Capture the drop by implementing the “drop” event
+5 Implement the “drag” event that is fired as the element is being dragged
+6 Store the intermediate data in the dataTransfer object
 
 ## Questions?🤔 
   
