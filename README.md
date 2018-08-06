@@ -37,6 +37,10 @@ $ npm start
 $ npm run build
 ```
 
+## View Demo
+
+[Demo](https://react-drag-and-drop.netlify.com/)
+
 # The key learning points are to:
 
 1 Make an element draggable by adding the “draggable” attribute
