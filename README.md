@@ -71,17 +71,11 @@ onDragOver = (ev) => {
 ### Draggable div
 
 ```js
-       <div onDragOver={(e) => this.onDragOver(e)}
-          onDrop={(e) => this.onDrop(e, HOLLYWOOD)}  >
-          <ul >
-            {movies && movies.length > 0 ?
-              movies.filter((movie) => movie.type === HOLLYWOOD).map((movie, key) => {
-                return (
-                  <li draggable onDragStart={(e) => this.onDragStart(e, id)}> </li>
-                )
-              }) : null}
-          </ul>
-        </div>
+<div onDragOver={(e) => this.onDragOver(e)} onDrop={(e) => this.onDrop(e, 'H')} >
+   <ul >
+      <li draggable onDragStart={(e) => this.onDragStart(e, 1)}>ABC</li>
+   </ul>
+</div>
 ```
         
 
