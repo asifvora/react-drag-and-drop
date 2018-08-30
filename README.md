@@ -2,7 +2,7 @@
 Implement the drag and drop feature without using external libraries.
 
 # Preview
-![drag-and-drop](./public/img/drag-and-drop.gif)
+![drag-and-drop](https://raw.githubusercontent.com/asifvora/react-drag-and-drop/master/public/img/drag-and-drop.gif)
 
 ## Getting Started
 
