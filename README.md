@@ -1,9 +1,9 @@
 # Drag and Drop in React
 Implement the drag and drop feature without using external libraries.
 
-# Screenshot
+# Preview
 
-<img src="./public/img/preview.png" alt="Screenshot"/>
+<img src="./public/img/preview.gif" alt="Screenshot"/>
 
 ## Getting Started
 
