@@ -48,6 +48,26 @@ $ npm run build
 * Implement the “drag” event that is fired as the element is being dragged
 * Store the intermediate data in the dataTransfer object
 
+### Draggable functions
+
+```js
+onDragStart = (ev, id) => {
+    ev.dataTransfer.setData("id", id);
+  }
+```
+
+```js
+onDrop = (ev, type) => {
+    let id = parseInt(ev.dataTransfer.getData("id"));
+  }
+```
+
+```js
+onDragOver = (ev) => {
+    ev.preventDefault();
+  }
+```
+
 ## Questions?🤔 
   
 Hit me on [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/007_dark_shadow)
