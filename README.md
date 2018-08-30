@@ -2,7 +2,7 @@
 Implement the drag and drop feature without using external libraries.
 
 # Preview
-![lazy loading](./public/img/drag-and-drop.gif)
+![drag-and-drop](./public/img/drag-and-drop.gif)
 
 ## Getting Started
 
