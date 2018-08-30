@@ -40,7 +40,8 @@ $ npm run build
 
 [Demo](https://react-drag-and-drop.netlify.com/)
 
-# The key learning points are to:
+### The key learning points are to:
+* Make an element draggable by adding the “draggable” attribute
 
 1 Make an element draggable by adding the “draggable” attribute
 2 Make an area droppable by implementing the “dragover” event
