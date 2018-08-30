@@ -2,8 +2,7 @@
 Implement the drag and drop feature without using external libraries.
 
 # Preview
-
-<img src="./public/img/preview.gif" alt="Screenshot"/>
+![lazy loading](./public/img/drag-and-drop.gif)
 
 ## Getting Started
 
