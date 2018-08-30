@@ -68,6 +68,23 @@ onDragOver = (ev) => {
   }
 ```
 
+### Draggable div
+
+```js
+       <div onDragOver={(e) => this.onDragOver(e)}
+          onDrop={(e) => this.onDrop(e, HOLLYWOOD)}  >
+          <ul >
+            {movies && movies.length > 0 ?
+              movies.filter((movie) => movie.type === HOLLYWOOD).map((movie, key) => {
+                return (
+                  <li draggable onDragStart={(e) => this.onDragStart(e, id)}> </li>
+                )
+              }) : null}
+          </ul>
+        </div>
+```
+        
+
 ## Questions?🤔 
   
 Hit me on [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/007_dark_shadow)
